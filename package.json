@@ -1,0 +1,23 @@
+{
+  "name": "cemetery_server",
+  "version": "1.0.0",
+  "description": "Cementery Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js  --unhandled-rejections=strict"
+  },
+  "author": "Ofer",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
